@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="7031-479c-3a90-c2b7" name="Stratagems - Ork" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="9" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <rules>
+    <rule name="Hulking Brutes" id="ffd8-71ac-806e-7151" hidden="false">
+      <description>• 1 CP
+• When: Your opponents shooting phase, just after an enemy unit has selected its targets
+• Target: One Nobz or Meganobz unit that is the target of one or more of that units attacks
+• Effect: until the end of phase, each time an attack targets your unit, worsen the armour penetration value of that attack by 1.</description>
+    </rule>
+    <rule name="Armed to da teef" id="b164-4c08-1aa3-9508" hidden="false">
+      <description>• 1 CP
+• When: Shooting or Fight phase
+• Target: One Nobz or Meganobz unit from your army that has not been selected to shoot or fight this phase
+• Effect: Reroll 1&apos;s to hit. OR Reroll all hit rolls during the Waaagh!</description>
+    </rule>
+    <rule name="Too Arrogant to die" id="6bfc-b420-9b90-3859" hidden="false">
+      <description>• 1 CP
+• When: Shooting or Fight phase, just after an opponents unit has selected its targets
+• Target: One Nobz or Meganobz unit from your army that was selected as the target of one or more of the attacking units attacks
+• Effect: Until the end of the phase, each time a model in your unit is destroyed, if that model has not shot or fought this phase, roll one d6, adding 2 to the result during the Waaagh! on a 5+ do not remove the destroyed model from play; it can shoot or fight after the attacking unit has finished its attacks, then is removed from play.</description>
+    </rule>
+    <rule name="Always lookin&apos; fer a fight" id="6b40-6126-13b8-4493" hidden="false">
+      <description>• 1 CP
+• When: Fight phase, just after a enemy unit is destroyed 
+• Target: One Nobz or Meganobz unit from your army that destroyed that enemy unit
+• Effect: Until the end of the phase, each time a model in your unit makes a consolidation move, it can move up to d3+3&quot;, if the waaagh! is active, move up to 6&quot; instead</description>
+    </rule>
+    <rule name="Crushing Impact" id="76e-7b65-d77a-fcb0" hidden="false">
+      <description>• 1 CP
+• When: Charge phase, just after Nobz or Meganobz unit from your army finishes a charge move.
+• Target: that Nobz or Meganobz unit.
+• Effect: Select ONE enemy unit within engagement range, then roll 1d6 per model that is within engagement range of the enemy unit. for each 5+ deal one mortal wound. During the waaagh! for each 4+ </description>
+    </rule>
+    <rule name="Cut &apos;Em Down " id="3591-4d23-fd25-c268" hidden="false">
+      <description>• 1 CP
+• When: Your opponents movement phase, just after an enemy is selected to fallback 
+• Target: One Nobz or Meganobz unit within engagement range of that enemy unit. 
+• Effect: When that unit falls back, all models in that enemy unit must make a desperate escape test, when doing so, if a Waaagh! is active for your unit, subtract 1 from each of those tests. </description>
+    </rule>
+  </rules>
+</catalogue>
