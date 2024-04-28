@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-352e-adc2-7639-d6a9" name="Matt Warhammer 40,000 10th Edition" revision="10" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-352e-adc2-7639-d6a9" name="Matt ed Warhammer 40,000 10th Edition" revision="10" battleScribeVersion="2.03" type="gameSystem">
   <publications>
-    <publication id="48fc-15aa-b307-9444" name="Matt 10th Edition Core Rules" shortName="Matt 10th Ed Core"/>
-    <publication name="Github" hidden="false" id="8db3-575d-91b-47f8" shortName="BSData/wh40k-10e" publisherUrl="https://github.com/BSData/wh40k-10e"/>
+    <publication id="48fc-15aa-b307-9443" name="10th Edition Core Rules" shortName="10th Ed Core"/>
   </publications>
   <costTypes>
     <costType id="51b2-306e-1021-d207" name="pts" defaultCostLimit="0" hidden="false"/>
@@ -324,9 +323,9 @@
       <categoryLinks>
         <categoryLink id="d5de-ee57-ad4b-e4b7" name="Configuration" hidden="false" targetId="4ac9-fd30-1e3d-b249" primary="false"/>
         <categoryLink id="16fc-8e39-ee82-cf96" name="Epic Hero" hidden="false" targetId="4f3a-f0f7-6647-348d" primary="false"/>
-        <categoryLink id="c932-1176-dc9-b390" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="false" type="category">
+        <categoryLink id="c932-1176-dc9-b390" name="New Category (link)" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="false">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="f08b-2179-601f-9af" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f08b-2179-601f-9af" type="min"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="0" field="f08b-2179-601f-9af">
@@ -359,9 +358,9 @@
       <categoryLinks>
         <categoryLink id="4f79-1f3a-7f95-ae21" name="Configuration" hidden="false" targetId="4ac9-fd30-1e3d-b249" primary="false"/>
         <categoryLink id="73b6-764d-b0ab-977c" name="Epic Hero" hidden="false" targetId="4f3a-f0f7-6647-348d" primary="false"/>
-        <categoryLink id="95ea-911f-b9a5-2d3e" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="false" type="category">
+        <categoryLink id="95ea-911f-b9a5-2d3e" name="New Category (link)" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="false">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="f08b-2179-601f-9af" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f08b-2179-601f-9af" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="57d9-fc38-a603-fdd2" name="Battleline" hidden="false" targetId="e338-111e-d0c6-b687" primary="false"/>

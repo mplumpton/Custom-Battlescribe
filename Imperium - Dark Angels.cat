@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="470a-6daa-9014-12df" name="Imperium - Adeptus Astartes - Dark Angels" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="21" battleScribeVersion="2.03" authorName="Simon Porter" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="470a-6daa-9014-12df" name="Imperium - Adeptus Astartes - Dark Angels" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="20" battleScribeVersion="2.03" authorName="Simon Porter" type="catalogue">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Imperium - Space Marines" id="a650-8be4-a99-ea41" targetId="e0af-67df-9d63-8fb7" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="f6c0-6a84-98dc-c47b" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="f161-7bb8-b521-bc26" targetId="b00-cd86-4b4c-97ba" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights" id="f6c0-6a84-98dc-c47b" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Imperial Agents" id="f161-7bb8-b521-bc26" targetId="b00-cd86-4b4c-97ba" importRootEntries="true"/>
   </catalogueLinks>
   <publications>
     <publication name="Index - Dark Angels" hidden="false" id="3931-1b04-c00e-afad" publisher="Index - Dark Angels" publicationDate="12-06-2023" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2023/06/C6o7G0zjRSxCUvhK.pdf" shortName="Index - Dark Angels"/>
@@ -1109,7 +1109,7 @@
         <categoryLink targetId="c619-2086-bbcf-69c9" id="3338-e67c-56ef-a928" primary="false" name="Fly"/>
         <categoryLink targetId="dbd4-63-af05-998" id="b57c-560a-1772-ea39" primary="true" name="Vehicle"/>
         <categoryLink targetId="63f1-e6e8-f6f6-a4f0" id="d35a-c73-8d38-6106" primary="false" name="Aircraft"/>
-        <categoryLink targetId="7f34-c3ed-cc4b-a273" id="4286-aa9c-6dc9-364d" primary="false" name="Dark Talon" type="category" hidden="false"/>
+        <categoryLink targetId="7f34-c3ed-cc4b-a273" id="4286-aa9c-6dc9-364d" primary="false" name="Ravenwing Dark Talon"/>
         <categoryLink targetId="6e7-40c-58d9-e402" id="7f24-fd5e-2324-7098" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="aab1-4f05-fabe-5ba5" id="2ffe-87cc-8d2a-8cbf" primary="false" name="Faction: Dark Angels"/>
         <categoryLink targetId="e9c7-1590-1bda-bf7f" id="1b1c-b388-cad9-910" primary="false" name="Ravenwing"/>
@@ -1229,7 +1229,7 @@
         <categoryLink targetId="c619-2086-bbcf-69c9" id="2780-63be-bbc6-67b3" primary="false" name="Fly"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="aa7e-e401-b5a8-2414" primary="false" name="Imperium"/>
         <categoryLink targetId="dbd4-63-af05-998" id="1449-939c-8d16-a6ab" primary="true" name="Vehicle"/>
-        <categoryLink targetId="e74d-4be2-7d3e-d993" id="c2df-29ed-bd09-7024" primary="false" name="Land Speeder Vengeance" type="category" hidden="false"/>
+        <categoryLink targetId="e74d-4be2-7d3e-d993" id="c2df-29ed-bd09-7024" primary="false" name="Ravenwing Land Speeder Vengeance"/>
         <categoryLink targetId="6e7-40c-58d9-e402" id="9a31-18dc-c086-9522" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="aab1-4f05-fabe-5ba5" id="436b-267e-51b2-ffb8" primary="false" name="Faction: Dark Angels"/>
         <categoryLink targetId="e9c7-1590-1bda-bf7f" id="66ae-8c6e-91df-fd0b" primary="false" name="Ravenwing"/>
@@ -1378,7 +1378,7 @@
         <cost name="pts" typeId="51b2-306e-1021-d207" value="115"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="294a-2f23-e0ce-386c" id="7d06-1884-1c89-857a" primary="false" name="Darkshroud" type="category" hidden="false"/>
+        <categoryLink targetId="294a-2f23-e0ce-386c" id="7d06-1884-1c89-857a" primary="false" name="Ravenwing Darkshroud"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="45e3-e9a7-7fbf-5172" primary="false" name="Imperium"/>
         <categoryLink targetId="c619-2086-bbcf-69c9" id="2263-6a72-72d3-e9fa" primary="false" name="Fly"/>
         <categoryLink targetId="dbd4-63-af05-998" id="69ed-8f91-d144-4dbe" primary="true" name="Vehicle"/>
@@ -4203,16 +4203,16 @@ In addition, each time a model in this unit makes an attack that targets your Oa
     <entryLink import="true" name="Lazarus" hidden="false" type="selectionEntry" id="b2e5-ab2-6c3a-10b1" targetId="4b0d-45ff-fab3-7472"/>
     <entryLink import="true" name="Nephilim Jetfighter" hidden="false" type="selectionEntry" id="913e-d233-117e-9512" targetId="4f36-6609-efac-baa6"/>
     <entryLink import="true" name="Ravenwing Dark Talon" hidden="false" type="selectionEntry" id="5fb4-b471-2e6f-ed40" targetId="9b3d-e812-4248-522"/>
-    <entryLink import="true" name="Land Speeder Vengeance" hidden="false" type="selectionEntry" id="56cf-ad9f-8a14-d354" targetId="b4a0-d2fe-a988-f28b"/>
+    <entryLink import="true" name="Ravenwing Land Speeder Vengeance" hidden="false" type="selectionEntry" id="56cf-ad9f-8a14-d354" targetId="b4a0-d2fe-a988-f28b"/>
     <entryLink import="true" name="Ravenwing Darkshroud" hidden="false" type="selectionEntry" id="6aaa-b67c-6608-41cc" targetId="152b-a271-df2b-21a9"/>
     <entryLink import="true" name="Ravenwing Black Knights" hidden="false" type="selectionEntry" id="8c41-ccbc-66dc-44bc" targetId="212d-f302-aaaf-5c12"/>
     <entryLink import="true" name="Ravenwing Command Squad" hidden="false" type="selectionEntry" id="e1ac-1406-1081-8ea3" targetId="e87d-f173-88b9-aa84"/>
     <entryLink import="true" name="Deathwing Knights" hidden="false" type="selectionEntry" id="f474-4b0b-6292-38aa" targetId="a6cc-9a65-dbf1-71b0"/>
     <entryLink import="true" name="Deathwing Terminator Squad" hidden="false" type="selectionEntry" id="d9b9-5a27-3836-1125" targetId="6135-d842-8e61-889d"/>
     <entryLink import="true" name="Inner Circle Companions" hidden="false" id="bb86-bce3-6729-371a" type="selectionEntry" targetId="f34-e2f9-c98e-1916"/>
-    <entryLink import="true" name="Ravenwing Talonmaster [Legends]" hidden="false" id="4bae-848c-a666-2b2c" type="selectionEntry" targetId="a2b6-e35-67a8-d76e"/>
+    <entryLink import="true" name="Ravenwing Talonmaster" hidden="false" id="4bae-848c-a666-2b2c" type="selectionEntry" targetId="a2b6-e35-67a8-d76e"/>
     <entryLink import="true" name="Deathwing Strikemaster [Legends]" hidden="false" id="1a6b-3ca9-141c-a248" type="selectionEntry" targetId="ebd0-6939-6305-6d16"/>
-    <entryLink import="true" name="Deathwing Command Squad [Legends]" hidden="false" id="5e5d-9cdb-a861-66db" type="selectionEntry" targetId="48fb-ebd6-dd17-729b"/>
+    <entryLink import="true" name="Deathwing Command Squad" hidden="false" id="5e5d-9cdb-a861-66db" type="selectionEntry" targetId="48fb-ebd6-dd17-729b"/>
   </entryLinks>
   <profileTypes>
     <profileType name="Primarch of the First Legion" hidden="false" id="a400-f511-a59-fca7">
